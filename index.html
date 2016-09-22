@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Perkenalan</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/skeleton/2.0.4/css/skeleton.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Yatra+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <style media="screen">
+    body {
+      text-align:center;
+      margin : 0px;
+      padding: 0px;
+    }
+    .headeri {
+        margin: 0px;
+        padding-top: 10px;
+      	border-bottom: 0px solid #ff0000;
+        box-shadow: 0px 5px 30px #888888;
+    }
+
+
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 90px;
+
+}
+
+
+    </style>
+  </head>
+  <body>
+
+
+<canvas id="canvas-basic"></canvas>
+<div class="headeri">
+
+
+<div class="row">
+
+<div >
+  <h1 style="font-family: 'Baloo Bhaina', cursive;
+  font-family: 'Yatra One', cursive;">Assalamu'alaikum</h1>
+</div>
+
+</div>
+
+</div>
+
+
+
+    <div class="container">
+    <div class="row" style="padding:50px">
+      <div class="two column"></div>
+      <div class="eight column">
+        <h3>Perkenalkan, Saya:</h3>
+        <h2> Yogi Erka Julyansa Putra</h2>
+
+        <a href="https://github.com/Erkajp"><i class="fa fa-github fa-3x"></i></a>
+        <a href="http://stackoverflow.com/users/6859345/erkajp"><i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i></a>
+        <a href="https://id.wikipedia.org/wiki/Pengguna:Erkajp"><i class="fa fa-wikipedia-w fa-3x" aria-hidden="true"></i></a>
+        <p>
+          erka.j.p@gmail.com,Eular:erka
+        </p>
+
+
+      </div>
+      <div class="two column"></div>
+    </div>
+  </div>
+  <script src="./js/granim.min.js" charset="utf-8"></script>
+  <script>
+
+
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    name: 'basic-gradient',
+    direction: 'left-right',
+    opacity: [0.5, 0.5],
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+              ['#B3FFAB', '#12FFF7'],
+              ['#ADD100', '#7B920A'],
+              ['#1A2980', '#26D0CE'],
+              ['#9D50BB', '#6E48AA'],
+              ['#4776E6', '#8E54E9'],
+              ['#FF4E50', '#F9D423']
+            ]
+        }
+    }
+});
+
+
+
+
+
+
+</script>
+  </body>
+</html>
